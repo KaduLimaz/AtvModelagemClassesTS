@@ -25,11 +25,23 @@ import {ModelBola} from "./atividadeClass/02"
 
 import {ContaCorrente} from "./atividadeClass/03"
 
-const contaNova = new ContaCorrente(1125,"Kadu")
+// const contaNova = new ContaCorrente(1125,"Kadu")
 
-contaNova.depositoConta(500)
 // contaNova.depositoConta(500)
-contaNova.alterarNomeConta("Carlos Eduardo")
-contaNova.saqueConta(600)
+// // contaNova.depositoConta(500)
+// contaNova.alterarNomeConta("Carlos Eduardo")
+// contaNova.saqueConta(600)
 
-console.log(contaNova)
+// console.log(contaNova)
+
+//4
+
+
+import {Calculadora} from "./atividadeClass/04"
+
+const calculadora = new Calculadora()
+
+
+calculadora.multiplicar(10,20)
+calculadora.somar(5,5)
+calculadora.verHistorico()
