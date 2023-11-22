@@ -3,14 +3,13 @@
 import { contador } from "./atividadeClass/01";
 
 
-// const contador1 = new contador(5)
+// const contador1 = new contador()
 
 // contador1.incrementar()
 // contador1.zerar()
-
 // contador1.incrementar()
-// console.log(contador1.valorAtual)
-
+// contador1.incrementar()
+// contador1.valorAtual()
 //2
 
 import {ModelBola} from "./atividadeClass/02"
@@ -25,15 +24,13 @@ import {ModelBola} from "./atividadeClass/02"
 
 import {ContaCorrente} from "./atividadeClass/03"
 
-// const contaNova = new ContaCorrente(1125,"Kadu")
+const contaNova = new ContaCorrente(1125,"Kadu")
 
-// contaNova.depositoConta(500)
-// // contaNova.depositoConta(500)
-// contaNova.alterarNomeConta("Carlos Eduardo")
-// contaNova.saqueConta(600)
-
-// console.log(contaNova)
-
+console.log(contaNova)
+contaNova.depositoConta(10)
+console.log(contaNova)
+contaNova.saqueConta(11)
+console.log(contaNova)
 //4
 
 
@@ -81,10 +78,39 @@ import {BombaCombustivel} from "./atividadeClass/05"
 
 //6
 
-import {Carro} from "./atividadeClass/06"
+// import {Carro} from "./atividadeClass/06"
 
-const fusca = new Carro(15)
-fusca.abastecerGasolina(20)
-fusca.andar(100)
+// const fusca = new Carro(15)
+// fusca.abastecerGasolina(20)
+// fusca.andar(100)
 
-console.log(fusca.obterGasolina())
+// console.log(fusca.obterGasolina())
+
+// PILARES POO
+
+//1 
+
+// import {AreaNormal, AreaVip, Camarote} from "./AtvPilaresPOO/01"
+
+// const ingressoNormal = new AreaNormal(50)
+
+// ingressoNormal.imprimeValor()
+
+// const ingressoVip = new AreaVip(50,100)
+
+// ingressoVip.imprimeValor()
+
+// const camarote = new Camarote(50,200)
+
+// camarote.imprimeValor()
+
+//2
+// import {NovoImovel, VelhoImovel} from "./AtvPilaresPOO/02"
+
+// const casa = new NovoImovel("Rua Porto Nacional",100000)
+// casa.valorImovelNovo(50000)
+// console.log(casa)
+
+// const Casa2 = new VelhoImovel("Avenida 2 ", 75000)
+
+// Casa2.valorImovelVelho(25000)

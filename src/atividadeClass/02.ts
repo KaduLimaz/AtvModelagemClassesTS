@@ -5,8 +5,8 @@ export class ModelBola {
     public material: string
   ) {}
 
-  trocarCor(cor: string): void {
-    this.cor = cor;
+  trocarCor(newCor: string): void {
+    this.cor = newCor;
   }
 
   mostarCor() {
