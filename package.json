@@ -4,7 +4,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts ./src/pilares.ts"
+    "dev": "ts-node-dev --respawn --transpile-only ./src/index.ts ./src/pilares.ts",
+    "diagrama": "ts-node-dev --respawn --transpile-only ./src/AtvDiagramaClasses/01.ts ",
+    "diagrama2": "ts-node-dev --respawn --transpile-only ./src/AtvDiagramaClasses/02.ts ",
+    "diagrama3": "ts-node-dev --respawn --transpile-only ./src/AtvDiagramaClasses/02.ts "
   },
   "keywords": [],
   "author": "",

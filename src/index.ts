@@ -24,13 +24,13 @@ import {ModelBola} from "./atividadeClass/02"
 
 import {ContaCorrente} from "./atividadeClass/03"
 
-const contaNova = new ContaCorrente(1125,"Kadu")
+// const contaNova = new ContaCorrente(1125,"Kadu")
 
-console.log(contaNova)
-contaNova.depositoConta(10)
-console.log(contaNova)
-contaNova.saqueConta(11)
-console.log(contaNova)
+// console.log(contaNova)
+// contaNova.depositoConta(10)
+// console.log(contaNova)
+// contaNova.saqueConta(11)
+// console.log(contaNova)
 //4
 
 
@@ -114,3 +114,10 @@ import {BombaCombustivel} from "./atividadeClass/05"
 // const Casa2 = new VelhoImovel("Avenida 2 ", 75000)
 
 // Casa2.valorImovelVelho(25000)
+
+
+import { Bicicleta, Ciclista } from "./exemplos/exemplo";
+
+const bike = new Bicicleta("nike","corrida")
+
+bike.pedalar()
